@@ -1,0 +1,26 @@
+html,body{
+  color: red;
+}
+
+.page-enter-active, .page-leave-active{
+  transition: opacity 1s;
+}
+
+.page-enter, .page-leave-active{
+  opacity: 0;
+}
+
+.single-enter-active, .single-leave-active{
+  transition: all 1s;
+  font-size: 12px;
+}
+
+.single-enter, .single-leave-active{
+  opacity: 0;
+  font-size: 24px;
+}
+
+.cat{
+  height: 60vh;
+  width: auto;
+}
